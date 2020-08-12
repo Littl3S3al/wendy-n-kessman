@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy Kessman</title>
+    <meta name="description" content="">
+
+    <!-- social media -->
+    <meta property="og:site_name" content="Wendy Kessman" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- nav bar -->
+    <div id="bar" class="container-fluid">
+        <div class="row d-flex justify-content-between align-items-center">
+            <button class="mono btn">
+                W&#x2022;N&#x2022;K
+            </button>
+            <div class="line d-none d-md-block"></div>
+            <button class="btn">
+                &#x2630;
+            </button>
+        </div>
+    </div>
+
+    <!-- nav -->
+    <!-- <section class="container-fluid">
+        <div class="row">
+            <div class="hide"></div>
+            <nav>
+                <ul>
+                    <li><a href="#main">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#work">WHAT I DO</a></li>
+                </ul>
+            </nav>
+        </div>  
+    </section> -->
+
+    <!-- landing section -->
+    <section id="main" class="container-fluid">
+        <div class="row d-flex mx-auto">
+            <div class="col-12">
+                <img class="logo" src="assets/logo.svg" alt="WENDY N KESSMAN">
+            </div>
+            <div class="col-12 text-center">
+                <h2>advocacy &#x2022; research  &#x2022; development </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- about me section -->
+    <section id="about" class="container-fluid lightGrey py-6">
+        <div class="row d-flex align-items-center">
+            <div class="offset-xl-1 col-xl-5 text-center">
+                <h1>ABOUT ME</h1>
+                <img class="my-5 profilePic" src="assets/WendyKessman.png" alt="Photograph of Wendy Kessman">
+            </div>
+            <div class="col-12 offset-md-2 col-md-8 offset-xl-0 col-xl-5">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adip
+                </p>
+                <div class="text-center mt-5">
+                    <a href="" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> VIEW MY CV</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- what I do section -->
+    <section id="work" class="container-fluid py-6">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-xl-6 offset-xl-6 text-center text-xl-left">
+                <h1>WHAT I DO...</h1>
+            </div>
+
+            <div class="offset-xl-1 col-xl-5 text-center">
+                <img class="triad my-5" src="assets/triad.svg" alt="The triad of Advocacy, Research and Development">
+            </div>
+            <div class="col-12 offset-md-2 col-md-8 offset-xl-0 col-xl-5">
+                <h3>ADVOCACY</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quisquam dolor ut cumque, repellendus aliquam itaque atque iure blanditiis, inventore soluta natus in cum possimus esse mollitia nam ea vitae.
+                </p>
+                <h3>RESEARCH</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsam perspiciatis perferendis fugiat quisquam? Commodi, sapiente corrupti ut similique quisquam ad modi, labore vitae, doloremque ratione perspiciatis quam quos autem?
+                </p>
+                <h3>DEVELOPMENT</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem temporibus, ad, animi repellendus deserunt fugiat accusamus nesciunt ratione aspernatur minus impedit, ipsum dolore aut molestias quis adipisci dignissimos odio similique?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured section -->
+    <section id="featured" class="container-fluid lightGrey py-6">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 text-center">
+                <h1>FEATURED</h1>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 col-xl-4 my-5 offset-xl-2">
+                <img class="featuredImg targetImage" src="assets/stock.png" alt="Cover Photo" data-toggle="modal" data-target="#modal" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')">
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 offset-xl-0 col-xl-3">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eos repellendus animi eius! Veritatis earum dolorem molestias. Nam, doloremque inventore a, blanditiis praesentium quas saepe ratione odit esse laudantium exercitationem?
+                </p>
+                <div class="text-center text-xl-left mt-5">
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="pdfViewer" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="PDFtitle">title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe class="featuredPdf" src="" frameborder="0"></iframe>
+              </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- my work section -->
+    <section id="myWork" class="container-fluid py-6">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>MY WORK</h1>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 row">
+                
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    
+      
+    <!-- news section -->
+    <section id="news" class="container-fluid lightGrey py-6">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>IN THE NEWS</h1>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 row">
+                
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+                <div class="col-12 col-md-6 p-5">
+                    <div class="workImg"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error porro nulla voluptas blanditiis impedit assumenda soluta quaerat maiores mollitia animi, quidem nisi atque eligendi fuga eum veniam exercitationem perspiciatis.
+                    </p>
+                    <button type="button" onClick="fill('canaries in the coal mines Swaziland', 'https://drive.google.com/file/d/1A0RUhPOSKZ9svu4kscQl_O9x5KcjWLDA/preview')" data-toggle="modal" data-target="#modal" class="btn btn-lg btn-dark"><img class="triangle" src="assets/triangle_1.svg" alt="&#x025B3;"> READ IT</button>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- get in touch section -->
+
+    <!-- footer -->
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+    <script>
+
+        // modal
+        const title = document.querySelector('#PDFtitle');
+        const link = document.querySelector('.featuredPdf');
+
+        const fill = (theTitle, theLink) => {
+            title.innerHTML = theTitle;
+            link.src = theLink;
+        }
+
+        
+    
+
+
+    </script>
+
+</body>
+</html>

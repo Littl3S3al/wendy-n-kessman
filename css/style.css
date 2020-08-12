@@ -1,0 +1,180 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  opacity: 0.4;
+}
+@media only screen and (min-width: 992px) {
+  h2 {
+    opacity: 1;
+  }
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 992px) {
+  section {
+    min-height: 60vh;
+  }
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  section {
+    min-height: 100vh;
+  }
+}
+
+.btn-dark {
+  border-radius: 50px;
+  background: #989898;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.btn-dark .triangle {
+  width: 1.5em;
+  margin-right: 5px;
+}
+
+.lightGrey {
+  background: #f1f1f1;
+}
+
+.py-6 {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.row {
+  width: 100%;
+}
+
+#bar {
+  position: fixed;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 200;
+}
+#bar .mono {
+  background: #989898;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 0;
+}
+#bar .mono:hover {
+  background: black;
+  color: white;
+}
+#bar .line {
+  height: 1px;
+  background: #4d4d4d;
+  width: 70%;
+}
+@media only screen and (min-width: 1200px) {
+  #bar .line {
+    width: 85%;
+  }
+}
+#bar button {
+  background: none;
+  font-size: 2em;
+  color: #4d4d4d;
+  font-weight: bolder;
+  padding: 0;
+}
+#bar button:hover {
+  color: black;
+}
+
+#main .logo {
+  padding-bottom: 2%;
+}
+@media only screen and (min-width: 768px) {
+  #main .row {
+    width: 90%;
+  }
+}
+
+#about .profilePic {
+  width: 75%;
+}
+@media only screen and (min-width: 768px) {
+  #about .profilePic {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #about .profilePic {
+    width: 45%;
+  }
+}
+
+.triad {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .triad {
+    width: 50%;
+  }
+}
+
+.featuredImg {
+  width: 100%;
+}
+
+.targetImage {
+  cursor: pointer;
+}
+
+.modal-dialog {
+  max-width: 100vw;
+}
+@media only screen and (min-width: 992px) {
+  .modal-dialog {
+    max-width: 70vw;
+    max-height: 60vh;
+  }
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .modal-dialog {
+    max-width: 50vw;
+    height: 98vh;
+  }
+}
+
+.modal-content {
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  min-height: 70vh;
+  height: 100%;
+}
+
+.workImg {
+  background: #4d4d4d;
+  width: 100%;
+  height: 30vh;
+}
+
+/*# sourceMappingURL=style.css.map */
