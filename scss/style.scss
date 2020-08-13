@@ -57,6 +57,7 @@ section{
 }
 .row{
     width: 100%;
+    margin: auto;
 }
 
 
@@ -67,6 +68,8 @@ section{
     top: 0;
     background: rgba(255,255,255,0.8);
     z-index: 200;
+    width: 100vw;
+    padding: 0;
     .mono{
         background: $grey;
         font-family: 'Montserrat', sans-serif;
@@ -93,7 +96,7 @@ section{
         font-size: 2em;
         color: $darkGrey;
         font-weight: bolder;
-        padding: 0;
+        padding-right: 20px;
         &:hover {
             color: black;
         }
@@ -165,9 +168,56 @@ iframe{
 }
 
 
-// my work
+// my work & news
+.workPiece{
+    padding-bottom: 40px;
+    @include mQ ($lg){
+        padding: 0 50px 50px 50px;
+    }
+}
 .workImg{
     background: $darkGrey;
     width: 100%;
     height: 30vh;
+    margin-bottom: 20px;
+}
+
+// get in touch
+section#contact{
+    .triadMini{
+        width: 80%;
+        margin: auto;
+    }
+    .logoMini{
+        width: 100%;
+        margin: auto;
+    }
+    a i{
+        color: black;
+        font-size: 20px;
+        margin: 10px;
+        @include mQ ($md){
+            font-size: 25px;
+        }
+    }
+    .form-column{
+        margin-top: 30px;
+    }
+}
+
+form input[type=text], form input[type=email], form textarea.form-control{
+    width: 100%;
+    background: $lightGrey;
+    border: none;
+    border-radius: 0;
+}
+
+// footer
+#footer{
+    font-size: 1em;
+    transition: text-decoration 0.5s;
+    a{
+        color: black;
+        font-weight: bolder;
+    }
 }
