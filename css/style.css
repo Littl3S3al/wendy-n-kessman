@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -106,6 +110,55 @@ section {
 }
 #bar button:hover {
   color: black;
+}
+
+#nav {
+  padding: 0;
+  z-index: 300;
+  position: fixed;
+}
+#nav button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  font-size: 2em;
+  color: #4d4d4d;
+  font-weight: bolder;
+  padding-right: 22px;
+  z-index: 700;
+}
+#nav button:hover {
+  color: black;
+}
+#nav ul {
+  list-style: none;
+}
+#nav ul a {
+  color: black;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  transition: font-weight 0.5s;
+  text-decoration: none;
+}
+#nav ul a:hover {
+  font-weight: bolder;
+}
+#nav .hide {
+  background: black;
+  opacity: 0.4;
+  height: 100vh;
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  #nav .hide {
+    display: block;
+  }
+}
+#nav .show {
+  background: white;
+  height: 100vh;
 }
 
 #main .logo {
@@ -221,7 +274,6 @@ form input[type=text], form input[type=email], form textarea.form-control {
 
 #footer {
   font-size: 1em;
-  transition: text-decoration 0.5s;
 }
 #footer a {
   color: black;
