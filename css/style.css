@@ -243,6 +243,10 @@ iframe {
   margin-bottom: 20px;
 }
 
+section#testimonials {
+  min-height: auto;
+}
+
 .carousel {
   min-height: 50vh;
   display: flex;
@@ -277,11 +281,12 @@ iframe {
 }
 
 section#contact .triadMini {
-  width: 80%;
+  width: 60%;
   margin: auto;
+  margin-bottom: 20px;
 }
 section#contact .logoMini {
-  width: 100%;
+  width: 60%;
   margin: auto;
 }
 section#contact a i {
