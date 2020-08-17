@@ -268,12 +268,12 @@ section#testimonials{
 // get in touch
 section#contact{
     .triadMini{
-        width: 60%;
+        width: 70%;
         margin: auto;
         margin-bottom: 20px;
     }
     .logoMini{
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
     a i{
@@ -286,6 +286,12 @@ section#contact{
     }
     .form-column{
         margin-top: 30px;
+    }
+    .tel{
+        a{
+            color: black;
+            font-weight: bold;
+        }
     }
 }
 

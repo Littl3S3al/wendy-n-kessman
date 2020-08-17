@@ -281,12 +281,12 @@ section#testimonials {
 }
 
 section#contact .triadMini {
-  width: 60%;
+  width: 70%;
   margin: auto;
   margin-bottom: 20px;
 }
 section#contact .logoMini {
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 section#contact a i {
@@ -301,6 +301,10 @@ section#contact a i {
 }
 section#contact .form-column {
   margin-top: 30px;
+}
+section#contact .tel a {
+  color: black;
+  font-weight: bold;
 }
 
 form input[type=text], form input[type=email], form textarea.form-control {
